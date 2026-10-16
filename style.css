@@ -19,7 +19,7 @@ body {
     font-family: "Jost", serif;
     min-height: 100vh;
     background: url(./images/background.jpeg) no-repeat center center/cover fixed;
-    color: #ffffff;
+    /*color: #ffffff;*/
 }
 
 /* ==========================================================================
