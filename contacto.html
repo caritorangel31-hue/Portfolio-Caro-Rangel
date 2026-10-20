@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==========================================
+         HEADER / ENCABEZADO
+         Navegación y presentación principal
+         ========================================== -->
+    <header class="site-header">
+
+        <!-- BARRA DE NAVEGACIÓN -->
+        <nav class="navbar">
+            <div class="navbar-container">
+
+                <!-- Logotipo -->
+                <a href="index.html" class="navbar-logo">Portfolio</a>
+
+                <!-- Menú hamburguesa -->
+                <button class="navbar-toggle"
+                        aria-label="Abrir menú"
+                        aria-expanded="false"
+                        aria-controls="navbar-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+
+                <!-- Menú principal -->
+                <ul class="navbar-menu" id="navbar-menu">
+                    <li><a href="#home" class="active">Inicio</a></li>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+
+            </div>
+        </nav>
+
+        <!-- SECCIÓN HERO -->
+        <div id="home" class="hero-container">
+            <div class="hero-content">
+
+                <h1 class="hero-title">Contacto</h1>
+
+                <p class="hero-subtitle">
+                   Puedes encontrarme en las siguientes redes sociales o enviarme un correo electronico.
+                </p>
+
+                <a href="#services" class="hero-btn">
+                    ¡SÍGUEME EN MIS REDES SOCIALES!
+                </a>
+
+            </div>
+        </div>
+
+    </header>
+
+
+    <!-- ==========================================
+         MAIN / CONTENIDO PRINCIPAL
+         ========================================== -->
+    <main class="main-content">
+
+        <!-- SECCIÓN DE SERVICIOS -->
+        <section id="services" class="content-section">
+
+            <div class="section-header">
+                <h2 class="section-title">Mis Servicios</h2>
+
+                <p class="section-description">
+                    Soluciones creativas adaptadas a cada proyecto.
+                </p>
+            </div>
+
+            <!-- Cuadrícula de tarjetas -->
+            <div class="cards-grid">
+
+                <!-- Tarjeta 1 -->
+                <article class="card">
+                
+
+                    <h3 class="card-title">Diseño Gráfico</h3>
+
+                    <p class="card-text">
+                        Soluciones visuales creativas que comunican
+                        ideas a través de un diseño efectivo y atractivo.
+                    </p>
+                </article>
+
+                <!-- Tarjeta 2 -->
+                <article class="card">
+                   
+
+                    <h3 class="card-title">Diseño Web</h3>
+
+                    <p class="card-text">
+                        Sitios web modernos, funcionales y responsivos
+                        enfocados en la experiencia del usuario.
+                    </p>
+                </article>
+
+                <!-- Tarjeta 3 -->
+                <article class="card">
+        
+
+                    <h3 class="card-title">Branding e Identidad Visual</h3>
+
+                    <p class="card-text">
+                        Identidades visuales únicas que representan
+                        la personalidad y los valores de cada marca.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+
+        <!-- SECCIÓN ABOUT -->
+        <section id="about" class="content-section about-section">
+
+            <div class="about-container">
+
+                <div class="about-text">
+
+                    <h2 class="section-title">Sobre Mí</h2>
+
+                    <p>
+                        Soy Caro Rangel, estudiante de Diseño Gráfico,
+                        Me encanta la creatividad y la comunicación visual, por lo que disfruto desarrollando proyectos que combinan
+                        estética, funcionalidad e innovación.
+                    </p>
+
+                    <p>
+                        Mi objetivo es transformar ideas en experiencias visuales significativas
+                        a través del diseño.
+                    </p>
+
+                </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- SECCIÓN BLOG -->
+        <section id="blog" class="content-section">
+
+            <div class="section-header">
+
+                <h2 class="section-title">Mi Blog</h2>
+
+                <p class="section-description">
+                    Descubre ideas, procesos creativos e
+                    inspiración detrás de mis proyectos.
+                </p>
+
+            </div>
+
+            <div class="cards-grid">
+
+                <article class="card">
+                
+
+                    <h3 class="card-title">Proceso Creativo</h3>
+
+                    <p class="card-text">
+                        Explorando las ideas e inspiración
+                        detrás de cada proyecto de diseño.
+                    </p>
+                </article>
+
+                <article class="card">
+            
+
+                    <h3 class="card-title">Tendencias de Diseño</h3>
+
+                    <p class="card-text">
+                        Descubriendo nuevos estilos, técnicas
+                        y tendencias en el diseño gráfico.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="card-icon"></div>
+
+                    <h3 class="card-title">Inspiración</h3>
+
+                    <p class="card-text">
+                        Compartiendo ideas creativas y referencias visuales
+                        para proyectos futuros.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==========================================
+         FOOTER / PIE DE PÁGINA
+         ========================================== -->
+    <footer id="contact" class="site-footer">
+
+        <div class="footer-container">
+
+            <!-- Columna 1: Marca -->
+            <div class="footer-col">
+
+                <h4 class="footer-brand">Portfolio</h4>
+
+                <p class="footer-desc">
+                    Creando experiencias visuales únicas y memorables.
+                </p>
+
+            </div>
+
+            <!-- Columna 2: Navegación -->
+            <div class="footer-col">
+
+                <h5 class="footer-heading">Enlaces Rápidos</h5>
+
+                <ul class="footer-links">
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#services">Servicios</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+
+            </div>
+
+            <!-- Columna 3: Contacto -->
+            <div class="footer-col">
+
+                <h5 class="footer-heading">Contacto</h5>
+
+                <p>Email: caritorangel31@gmail.com</p>
+                <p>Location: San Luis Potosí, México</p>
+
+            </div>
+
+        </div>
+
+        <!-- Derechos de autor -->
+        <div class="footer-bottom">
+            <p>&copy; 2026 Portfolio. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+    <!-- Archivo JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
